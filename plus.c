@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int i = 1;
-    int j = 3;
-    int k = 4;
-    int p = 5;
-    int l = i + j + k + p;
-    printf("%d", l);
+    int a = 0;
+    int b = 0;
+    printf("ÇëÊäÈëÊı×Ö\n");
+    scanf("%d %d", &a, &b);
+    printf("%d+%d=%d", a, b, a + b);
 }
